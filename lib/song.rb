@@ -51,9 +51,10 @@ class Song
   song = self.new
   song.artist_name = a[0]
   song.name = a[1].split(".")[0]
-  song.save
   song
   end
+
+
 
 
 
